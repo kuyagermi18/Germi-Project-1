@@ -16,11 +16,25 @@ section {
   width: 100%;
 }
 
+.top-header {
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #2071aa;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.body1 {
+  margin: 0;
+  background: #234551;
+  font-family: 'Arial', sans-serif;
+}
+
 body {
   margin: 0;
   padding: 10px;
   background: linear-gradient(to bottom, #1546a2, #22a16c);
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Times New Roman', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,11 +42,11 @@ body {
 }
 
 section {
-  margin-bottom: 20px;
-  border-radius: 10px;
+  margin-bottom: 10px;
+  border-radius: 25px;
   overflow: hidden;
-  height: 350px;
-  padding: 10px 0;
+  height: 260px;
+  padding: 20px 0;
 }
 
 header {
@@ -41,24 +55,24 @@ header {
   grid-template-rows: auto auto;
   align-items: center;
   padding: 20px;
-  color: white;
+  color: rgb(235, 235, 243);
   gap: 10px;
 }
 
 .logo {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 30px;
 }
 
 .jjk {
-  width: 150px;
+  width: 100px;
   height: auto;
 }
 
 .Menu {
   display: flex;
-  gap: 20px;
+  gap: 100px;
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -77,7 +91,7 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
 }
 
 .right-side {
@@ -88,34 +102,53 @@ footer {
   background-color: #369bdf;
   color: white;
   text-align: center;
-  padding: 5px 0;
-  font-size: 0.9rem;  
+  padding: 2px 0;
+  font-size: 1rem;  
   margin-top: 10px;
 }
 
 .one {
-  background-color: #1546a2;
+  background-color: #090b53;
   padding: 20px;
 }
 
 .two {
-  background-color: #1083bd;
+  background-color: #42329c;
   padding: 20px;
 }
 
 .three {
-  background-color: #16699c;
+  background-color: #0e4c72;
   padding: 20px;
 }
 
 .four {
-  background-color: #0f4d80;
+  background-color: #246ba4;
   padding: 20px;
 }
 
 .five {
-  background-color: #0d5493;
+  background-color: #3470a5;
   padding: 20px;
 }
 
+.f1 {
+  background-color: #4d4546;
+}
+
+.f2 {
+  background-color: #4d4546;
+}
+
+.f3 {
+  background-color: #4d4546;
+}
+
+.f4 {
+  background-color: #4d4546;
+}
+
+.f5 {
+  background-color: #4d4546;
+}
 </style>
